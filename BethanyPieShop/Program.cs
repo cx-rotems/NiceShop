@@ -20,7 +20,7 @@ namespace BethanyPieShop
             Host.CreateDefaultBuilder(args)
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
-                    //test
+                    //test 2
                     webBuilder.UseStartup<Startup>();
                 });
     }
