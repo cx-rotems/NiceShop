@@ -10,7 +10,7 @@ namespace BethanyPieShop.Controllers
     {
         public IActionResult Index()
         {
-            return View(); //test
+            return View(); //testLiav
         }
     }
 }
