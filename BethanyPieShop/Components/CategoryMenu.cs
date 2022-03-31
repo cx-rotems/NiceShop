@@ -17,7 +17,7 @@ namespace BethanysPieShop.Components
 
         public IViewComponentResult Invoke()
         {
-            var categories = _categoryRepository.AllCategories.OrderBy(c => c.CategoryName); // test
+            var categories = _categoryRepository.AllCategories.OrderBy(c => c.CategoryName); // test2
             return View(categories);
         }
     }
